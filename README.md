@@ -33,7 +33,7 @@ The main goal was to identify market trends, compare growth, and evaluate pricin
 - Oysters showed the strongest growth.
 - Slight decline observed in FY25 total exports.
 
-  **TOOLS USED**
+**TOOLS USED**
 - SQL Server for ETL and cleaning. 
 - Power BI for dashboards. 
 - Excel/CSV for raw data handling.
