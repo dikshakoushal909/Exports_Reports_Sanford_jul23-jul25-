@@ -1,1 +1,32 @@
+----Measures Used in Power Bi DAX---
 
+Avg Price per kg = DIVIDE([TotalValue_NZD], [Total_Volume(kg)], 0)
+Total_Volume(kg) = SUM(Product_All_Years[Volume_kg])
+TotalValue_NZD = SUM(Product_All_Years[Value_nzd])
+--------------------------------------------------------------
+Value_Share % = 
+DIVIDE(
+    [TotalValue_NZD],
+    CALCULATE([TotalValue_NZD], ALL(Product_All_Years)),
+    0
+)
+--------------------------------------------------------------------------
+Growth FY24-FY25 % = 
+VAR FY24 = CALCULATE([TotalValue_NZD], Product_All_Years[Financial_Year] = "FY24")
+VAR FY25 = CALCULATE([TotalValue_NZD], Product_All_Years[Financial_Year] = "FY25")
+RETURN
+DIVIDE(FY25 - FY24, FY24, 0)
+----------------------------------------------------------------------------------------
+Growth FY23-FY24 % = 
+VAR FY23 = CALCULATE([TotalValue_NZD], Product_All_Years[Financial_Year] = "FY23")
+VAR FY24 = CALCULATE([TotalValue_NZD], Product_All_Years[Financial_Year] = "FY24")
+RETURN
+DIVIDE(FY24 - FY23, FY23, 0)
+
+----------------------------------------------------------------------------------------
+Avg_Price_Index = 
+DIVIDE(
+    [Avg Price per kg],
+    CALCULATE([Avg Price per kg], ALL(Product_All_Years)),
+    0
+)
