@@ -10,7 +10,7 @@ The main goal was to identify market trends, compare growth, and evaluate pricin
 3. Connected the cleaned data to Power BI for visualization.  
 4. Designed dashboards showing country-wise growth, pricing index, and export trends.
 
-**Methodology****
+**Methodology**
   I started by importing all three CSV files (FY23–FY25) into SQL Server using the Import Data method.
   During import, I made sure each file was mapped correctly and handled small formatting issues like commas in country names.
   After that, I merged all three datasets into a single master table so I could analyze trends across years more easily.
