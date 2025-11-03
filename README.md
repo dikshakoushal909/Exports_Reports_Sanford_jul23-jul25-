@@ -12,20 +12,20 @@ The main goal was to identify market trends, compare growth, and evaluate pricin
 
 **FILES IN THIS REPOSITORY**
 **SQL_ETL_Scripts**
-├── create_tables.sql
-├── import_csv.sql
-├── merge_all_years.sql
-├── vw_RightMarket_EP.sql
-├── vw_RightProduct_EP.sql
-└── vw_RightPrice_EP.sql
+ create_tables.sql
+ import_csv.sql
+ merge_all_years.sql
+ vw_RightMarket_EP.sql
+ vw_RightProduct_EP.sql
+ vw_RightPrice_EP.sql
 
 **PowerBI_Report**
-└── Sanford_Export_Analysis.pbix
+ Sanford_Export_Analysis.pbix
 
 **Data_Sample**
-├── exports-by-product-jul-23.csv
-├── exports-by-product-jul-24.csv
-└── exports-by-product-jul-25.csv
+ exports-by-product-jul-23.csv
+ exports-by-product-jul-24.csv
+ exports-by-product-jul-25.csv
 
 **KEY INSIGHTS**
 - Australia and China were top markets during FY23–FY25.
