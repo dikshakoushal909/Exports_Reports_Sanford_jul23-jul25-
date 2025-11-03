@@ -28,10 +28,10 @@ The main goal was to identify market trends, compare growth, and evaluate pricin
 - exports-by-product-jul-25.csv
 
 **KEY INSIGHTS**
-- Australia and China were top markets during FY23–FY25.
-- Salmon had the highest price per kg.
-- Oysters showed the strongest growth.
-- Slight decline observed in FY25 total exports.
+- Australia and China turned out to be the strongest and most consistent export markets across all three years.
+- Salmon had the highest price per kg, while Oysters showed the fastest growth trend.
+- The total export value dipped slightly from FY24 to FY25, suggesting a small shift in pricing or volume.
+- There’s clear scope to optimize pricing strategies for growing Asian markets in the future.
 
 **TOOLS USED**
 - SQL Server for ETL and cleaning. 
